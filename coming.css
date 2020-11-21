@@ -1,0 +1,269 @@
+body{
+            font-family: 'Roboto', sans-serif;
+        }
+        nav{
+            text-transform: capitalize;
+            font-size: 15px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            color: #fff;
+            transition: all 0.5s;
+            font-size: 15px;
+            border-bottom: 1px dotted white;
+        }
+        header {
+            height: 700px;
+            background-size:cover;
+            background-image: url('banner6.jpg');
+        }
+
+        .bg-light {
+            background-color: rgba(255, 0, 0, 0)!important;
+            padding-top: 20px;
+            transition: 500ms;
+        }
+
+        .bg-light.scrolled{
+            background: white !important;
+            
+        }
+
+
+         .login-btn{
+            background: transparent;
+            border:2px solid white;
+            border-radius: 0px;
+        }
+
+        .login-btn:hover{
+            background-color: white;
+            color:#00bcd4;
+            border:2px solid white;
+        }
+
+        .login-btn.scr{
+            background-color: white;
+            color:#00bcd4;
+            border: 2px solid #00bcd4;
+        }
+
+        .login-btn.scr:hover{
+            background-color: #00bcd4;
+            color:white;
+            border: 2px solid #00bcd4;
+        }
+
+          .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+        
+        .navbar-light .navbar-brand:focus,
+        .navbar-light .navbar-brand {
+            color: white;
+        }
+        
+        .navbar-light .navbar-nav .nav-link.scroll {
+            color: black !important;
+        }
+        
+        .navbar-light .navbar-brand:focus,
+        .navbar-light .navbar-brand.sc {
+            color: black !important;
+        }
+
+        @media(min-width: 400px){
+            #signup-btn{
+                margin-left: 10px;
+            }
+        }
+
+
+         footer {
+            background-image: url(banner6.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 80px 0px 60px 0px;
+        }
+        
+        footer .footer-heading h2 {
+            color: #fff;
+            font-size: 19px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-bottom: 30px;
+        }
+        
+        footer p {
+            color: #fff;
+        }
+        
+        footer ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        
+        footer ul li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff;
+            letter-spacing: 0.5px;
+        }
+        
+        footer ul li:last-child {
+            margin-bottom: 0px;
+        }
+        
+        footer ul li a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            transition: all 0.3s;
+        }
+        
+        footer ul li a:hover {
+            color: #fff;
+            opacity: 0.75;
+        }
+        
+        footer .sub-footer {
+            text-align: center;
+            margin-top: 80px;
+            border-top: 1px solid rgba(250, 250, 250, 0.30);
+            padding-top: 60px;
+        }
+        
+        footer .sub-footer a {
+            color: #FFF;
+        }
+
+        .slideshow-container {
+            position: relative;
+            background: #f1f1f1f1;
+            text-align: center;
+        }
+        /* Slides */
+        
+        .mySlides {
+            display: none;
+            padding: 80px;
+            text-align: center;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -30px;
+            padding: 16px;
+            color: #888;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            position: absolute;
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+        /* The dot/bullet/indicator container */
+        
+        .dot-container {
+            text-align: center;
+            padding: 20px;
+        }
+        /* The dots/bullets/indicators */
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #9dd9fc;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        /* Add a background color to the active dot/circle */
+        
+        .dot:hover {
+            background-color: #0c51c2;
+        }
+        /* Add an italic font style to all quotes */
+        
+        q {
+            font-style: italic;
+        }
+        /* Add a blue color to the author */
+        
+        .author {
+            color: cornflowerblue;
+        }
+
+        .grad-circle{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,44,236,1) 35%, rgba(0,212,255,1) 100%);
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            padding: 15px;
+        }
+
+         #slide{
+          background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,44,236,1) 35%, rgba(0,212,255,1) 100%);
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            padding: 15px;
+        }
+
+        .carousel-caption{
+            color: black;
+        }
+        .card-deck .card-body{
+            background-color: #F0F0F0;
+            color:#1d80aa;
+        }
+
+        .card-deck .card-body .card-text{
+            color:#1d80aa;
+
+        }
+
+        .card-img-top{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .card-img-top:hover {opacity: 0.7;}
+
+          
+        .card-body{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .card-body:hover { background-color:  #1d80aa;
+            color:white;
+        }
+
+        .card-deck .card-body .card-text:hover{
+            color:white;
+
+        }
